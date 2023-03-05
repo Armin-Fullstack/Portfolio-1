@@ -39,6 +39,10 @@ export default function Home() {
 
               {/* content container  */}
               <div className="mt-12 text-center p-10">
+                {/* content  */}
+                <h2 className="text-5xl text-teal-600 py-2 font-medium">Dimitri Marco</h2>
+                <h3 className="text-2xl py-2">Developer and Designer</h3>
+                <p className="text-md py-5 leading-8 text-gray-800">Freelancer providing services for programming and design content needs. join me down below and let's get cracking!</p>
               </div>
           </div>
         </section>
