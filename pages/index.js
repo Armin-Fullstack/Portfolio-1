@@ -9,6 +9,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
+        {/* Hedear section  */}
+        <section id='header'>
+            {/* main container  */}
+            <div className='container max-w-7xl p-6 mx-auto'>
+                
+            </div>
+        </section>
         
       </main>
     </>
