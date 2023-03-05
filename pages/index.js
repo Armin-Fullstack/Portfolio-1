@@ -15,7 +15,11 @@ export default function Home() {
             <div className='container max-w-7xl p-6 mx-auto'>
                 {/* Nav */}
                 <nav className='flex justify-between items-center'>
-                  
+                  <h1 className='text-xl font-burtons'>developedbyArmin</h1>
+                  {/* icon and button container  */}
+                  <div className='flex space-x-8 items-center'>
+
+                  </div>
                 </nav>
             </div>
         </section>
