@@ -37,6 +37,9 @@ export default function Home() {
               </div>
             </nav>
 
+              {/* content container  */}
+              <div className="mt-12 text-center p-10">
+              </div>
           </div>
         </section>
       </main>
