@@ -1,5 +1,7 @@
 import Head from "next/head";
-
+import {AiFillTwitterCircle} from "react-icons/Ai"
+import {AiFillLinkedin} from "react-icons/Ai"
+import {AiFillYoutube} from "react-icons/Ai"
 export default function Home() {
   return (
     <>
@@ -43,6 +45,12 @@ export default function Home() {
                 <h2 className="text-5xl text-teal-600 py-2 font-medium">Dimitri Marco</h2>
                 <h3 className="text-2xl py-2">Developer and Designer</h3>
                 <p className="text-md py-5 leading-8 text-gray-800">Freelancer providing services for programming and design content needs. join me down below and let's get cracking!</p>
+              </div>
+              {/* Social icons container  */}
+              <div className="flex text-5xl justify-center items-center space-x-16 py-3 text-gray-600">
+                <AiFillTwitterCircle/>
+                <AiFillLinkedin/>
+                <AiFillYoutube/>
               </div>
           </div>
         </section>
