@@ -13,7 +13,10 @@ export default function Home() {
         <section id='header'>
             {/* main container  */}
             <div className='container max-w-7xl p-6 mx-auto'>
-                
+                {/* Nav */}
+                <nav className='flex justify-between items-center'>
+                  
+                </nav>
             </div>
         </section>
         
