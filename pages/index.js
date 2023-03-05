@@ -2,6 +2,9 @@ import Head from "next/head";
 import {AiFillTwitterCircle} from "react-icons/Ai"
 import {AiFillLinkedin} from "react-icons/Ai"
 import {AiFillYoutube} from "react-icons/Ai"
+import Image from "next/image"
+import dev from "../public/Images/dev-ed-wave.png"
+
 export default function Home() {
   return (
     <>
@@ -12,7 +15,7 @@ export default function Home() {
       </Head>
       <main>
         {/* Hedear section  */}
-        <section id="header">
+        <section id="header" className="min-h-screen">
           {/* main container  */}
           <div className="container max-w-7xl p-6 mx-auto">
             {/* Nav */}
@@ -51,6 +54,10 @@ export default function Home() {
                 <AiFillTwitterCircle/>
                 <AiFillLinkedin/>
                 <AiFillYoutube/>
+              </div>
+              {/* image  */}
+              <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden">
+                    <Image src={dev} layout="fill" objectFit="cover"/>
               </div>
           </div>
         </section>
