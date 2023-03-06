@@ -183,6 +183,9 @@ export default function Home() {
                 teaching.
               </p>
             </div>
+            {/* Images container */}
+            <div className="flex flex-col lg:flex-wrap gap-10 py-10">
+            </div>
           </div>
         </section>
       </main>
