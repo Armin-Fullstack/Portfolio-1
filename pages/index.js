@@ -7,6 +7,12 @@ import dev from "../public/Images/dev-ed-wave.png";
 import design from "../public/Images/design.png";
 import code from "../public/Images/code.png";
 import consulting from "../public/Images/consulting.png";
+import web1 from "../public/Images/web1.png"
+import web2 from "../public/Images/web2.png"
+import web3 from "../public/Images/web3.png"
+import web4 from "../public/Images/web4.png"
+import web5 from "../public/Images/web5.png"
+import web6 from "../public/Images/web6.png"
 
 export default function Home() {
   return (
@@ -184,7 +190,32 @@ export default function Home() {
               </p>
             </div>
             {/* Images container */}
-            <div className="flex flex-col lg:flex-wrap gap-10 py-10">
+            <div className="flex flex-col lg:flex-row lg:flex-wrap gap-10 py-10">
+              {/* Image 1 */}
+              <div className="basis-1/3 flex-1">
+                  <Image src={web1} className="rounded-lg object-cover w-full h-full"/>
+              </div>
+              {/* Image 2 */}
+              <div className="basis-1/3 flex-1">
+                  <Image src={web2} className="rounded-lg object-cover w-full h-full"/>
+              </div>
+              {/* Image 3 */}
+              <div className="basis-1/3 flex-1">
+                  <Image src={web3} className="rounded-lg object-cover w-full h-full"/>
+              </div>
+              {/* Image 4 */}
+              <div className="basis-1/3 flex-1">
+                  <Image src={web4} className="rounded-lg object-cover w-full h-full"/>
+              </div>
+              {/* Image 5 */}
+              <div className="basis-1/3 flex-1">
+                  <Image src={web5} className="rounded-lg object-cover w-full h-full"/>
+              </div>
+              {/* Image 6 */}
+              <div className="basis-1/3 flex-1">
+                  <Image src={web6} className="rounded-lg object-cover w-full h-full"/>
+              </div>
+              
             </div>
           </div>
         </section>
