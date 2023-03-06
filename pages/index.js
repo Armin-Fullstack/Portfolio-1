@@ -90,6 +90,30 @@ export default function Home() {
                         <p className="text-gray-800 py-1">Figma</p>
                         
                    </div>
+
+                   {/* card 2 container  */}
+                   <div className="p-10 text-center shadow-lg rounded-xl md:w-1/3">
+                        <Image src={code} width={100} height={100} className="mx-auto"/>
+                        <h3 className="text-lg font-medium mt-8 mb-2">Beautiful Designs</h3>
+                        <p className="mb-2">Creating elegant designs suited for your needs following core design theory.</p>
+                        <h4 className="text-teal-600 my-4">Design tools I use</h4>
+                        <p className="text-gray-800 py-1">Photoshop</p>
+                        <p className="text-gray-800 py-1">Illusttrator</p>
+                        <p className="text-gray-800 py-1">Figma</p>
+                        
+                   </div>
+
+                   {/* card 3 container  */}
+                   <div className="p-10 text-center shadow-lg rounded-xl md:w-1/3">
+                        <Image src={consulting} width={100} height={100} className="mx-auto"/>
+                        <h3 className="text-lg font-medium mt-8 mb-2">Beautiful Designs</h3>
+                        <p className="mb-2">Creating elegant designs suited for your needs following core design theory.</p>
+                        <h4 className="text-teal-600 my-4">Design tools I use</h4>
+                        <p className="text-gray-800 py-1">Photoshop</p>
+                        <p className="text-gray-800 py-1">Illusttrator</p>
+                        <p className="text-gray-800 py-1">Figma</p>
+                        
+                   </div>
               </div>
           </div>
         </section>
