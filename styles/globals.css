@@ -10,3 +10,7 @@
 .main-container {
    @apply container max-w-7xl p-6 mx-auto
 }
+
+.services-text {
+    @apply  mt-3 mb-2 leading-8 text-gray-800
+}

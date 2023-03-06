@@ -66,7 +66,14 @@ export default function Home() {
         <section id="services">
           {/* main container */}
           <div className="main-container">
-
+              {/* content container  */}
+              <div>
+                <h3 className="text-3xl">Services I offer</h3>
+                <p className="services-text">Since the beginning og my journey as a freelance designer and developer, I've done 
+                  remote work for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collabrated with talanted people to create digital products for both businuss and consumer use.
+                </p>
+                <p className="services-text">I offer from a wide range of services, including programming and teaching.</p>
+              </div>
           </div>
         </section>
       </main>
