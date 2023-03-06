@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { useState } from "react";
-import { AiFillTwitterCircle } from "react-icons/Ai";
-import { AiFillLinkedin } from "react-icons/Ai";
-import { AiFillYoutube } from "react-icons/Ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
 import dev from "../public/Images/dev-ed-wave.png";
 import design from "../public/Images/design.png";
