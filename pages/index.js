@@ -117,6 +117,14 @@ export default function Home() {
               </div>
           </div>
         </section>
+
+        {/* Portfolio section  */}
+        <section id="potfolio">
+            {/* main container  */}
+            <div className="main-container">
+
+            </div>
+        </section>
       </main>
     </>
   );
