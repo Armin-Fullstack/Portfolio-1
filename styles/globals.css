@@ -6,3 +6,7 @@
     font-family: "burtons";
     src: url("../public/Images/Burtons.otf")
 }
+
+.main-container {
+   @apply container max-w-7xl p-6 mx-auto
+}

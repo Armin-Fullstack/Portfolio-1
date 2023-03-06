@@ -17,7 +17,7 @@ export default function Home() {
         {/* Hedear section  */}
         <section id="header" className="min-h-screen">
           {/* main container  */}
-          <div className="container max-w-7xl p-6 mx-auto">
+          <div className="main-container">
             {/* Nav */}
             <nav className="flex justify-between items-center">
               <h1 className="text-xl font-burtons">developedbyArmin</h1>
@@ -59,6 +59,14 @@ export default function Home() {
               <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden">
                     <Image src={dev} layout="fill" objectFit="cover"/>
               </div>
+          </div>
+        </section>
+
+        {/* services section  */}
+        <section id="services">
+          {/* main container */}
+          <div className="main-container">
+
           </div>
         </section>
       </main>
