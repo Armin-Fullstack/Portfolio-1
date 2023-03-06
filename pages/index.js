@@ -74,6 +74,10 @@ export default function Home() {
                 </p>
                 <p className="services-text">I offer from a wide range of services, including programming and teaching.</p>
               </div>
+              {/* cards container  */}
+              <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6">
+
+              </div>
           </div>
         </section>
       </main>
