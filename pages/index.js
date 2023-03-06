@@ -79,7 +79,7 @@ export default function Home() {
             </div>
             {/* image  */}
             <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden">
-              <Image src={dev} layout="fill" objectFit="cover" />
+              <Image src={dev} alt="dev" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -110,6 +110,7 @@ export default function Home() {
               <div className="p-10 text-center shadow-lg rounded-xl md:w-1/3 dark:bg-white">
                 <Image
                   src={design}
+                  alt="design"
                   width={100}
                   height={100}
                   className="mx-auto"
@@ -131,6 +132,7 @@ export default function Home() {
               <div className="p-10 text-center shadow-lg rounded-xl md:w-1/3 dark:bg-white">
                 <Image
                   src={code}
+                  alt="code"
                   width={100}
                   height={100}
                   className="mx-auto"
@@ -152,6 +154,7 @@ export default function Home() {
               <div className="p-10 text-center shadow-lg rounded-xl md:w-1/3 dark:bg-white">
                 <Image
                   src={consulting}
+                  alt="consulting"
                   width={100}
                   height={100}
                   className="mx-auto"
@@ -196,27 +199,27 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row lg:flex-wrap gap-10 py-10">
               {/* Image 1 */}
               <div className="basis-1/3 flex-1">
-                  <Image src={web1} className="rounded-lg object-cover w-full h-full"/>
+                  <Image src={web1} alt="web1" className="rounded-lg object-cover w-full h-full"/>
               </div>
               {/* Image 2 */}
               <div className="basis-1/3 flex-1">
-                  <Image src={web2} className="rounded-lg object-cover w-full h-full"/>
+                  <Image src={web2} alt="web2" className="rounded-lg object-cover w-full h-full"/>
               </div>
               {/* Image 3 */}
               <div className="basis-1/3 flex-1">
-                  <Image src={web3} className="rounded-lg object-cover w-full h-full"/>
+                  <Image src={web3} alt="web3" className="rounded-lg object-cover w-full h-full"/>
               </div>
               {/* Image 4 */}
               <div className="basis-1/3 flex-1">
-                  <Image src={web4} className="rounded-lg object-cover w-full h-full"/>
+                  <Image src={web4} alt="web4" className="rounded-lg object-cover w-full h-full"/>
               </div>
               {/* Image 5 */}
               <div className="basis-1/3 flex-1">
-                  <Image src={web5} className="rounded-lg object-cover w-full h-full"/>
+                  <Image src={web5} alt="web5" className="rounded-lg object-cover w-full h-full"/>
               </div>
               {/* Image 6 */}
               <div className="basis-1/3 flex-1">
-                  <Image src={web6} className="rounded-lg object-cover w-full h-full"/>
+                  <Image src={web6}alt="web6"  className="rounded-lg object-cover w-full h-full"/>
               </div>
               
             </div>
