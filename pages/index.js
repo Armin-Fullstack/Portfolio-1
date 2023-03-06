@@ -67,7 +67,7 @@ export default function Home() {
           {/* main container */}
           <div className="main-container">
               {/* content container  */}
-              <div>
+              <div className="mb-10">
                 <h3 className="text-3xl">Services I offer</h3>
                 <p className="services-text">Since the beginning og my journey as a freelance designer and developer, I've done 
                   remote work for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collabrated with talanted people to create digital products for both businuss and consumer use.
@@ -76,7 +76,10 @@ export default function Home() {
               </div>
               {/* cards container  */}
               <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-6">
+                   {/* card 1 container  */}
+                   <div className="p-10 text-center shadow-lg rounded-xl md:w-1/3">
 
+                   </div>
               </div>
           </div>
         </section>
