@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
@@ -17,6 +17,26 @@ import web6 from "../public/Images/web6.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+
+
+  useEffect(() => {
+	const check = localStorage.getItem("darkMode")
+	switch (check) {
+		case "true": setDarkMode(true)
+			break;
+		case "false" : setDarkMode(false)
+			break;
+		default: localStorage.setItem("darkMode" , JSON.stringify(darkMode))
+	}
+
+}, []);
+
+const changeTheme = () => {
+	setDarkMode(!darkMode);
+	localStorage.setItem("darkMode", JSON.stringify(!darkMode));
+};
+  
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -36,9 +56,10 @@ export default function Home() {
               </h1>
               {/* icon and button container  */}
               <div className="flex space-x-8 items-center">
+                {/* dark mode icons  */}
                 {darkMode ? (
                   <svg
-                  onClick={() => setDarkMode(!darkMode)}
+                  onClick={changeTheme}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -54,7 +75,7 @@ export default function Home() {
                   </svg>
                 ) : (
                   <svg
-                    onClick={() => setDarkMode(!darkMode)}
+                    onClick={changeTheme}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
